@@ -79,7 +79,7 @@ Student-Registration-Ledger/
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:** *(Add your Netlify link here)*
+🔗 **Live URL:** *(https://student-registration-ledger.netlify.app/)*
 
 ---
 
