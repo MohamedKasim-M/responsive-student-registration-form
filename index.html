@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Student Registration Form</h1>
+
+        <form id="studentForm">
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="Enter First name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Enter Second Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" placeholder="Enter Country" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pincode">Pincode</label>
+                    <input type="number" id="pincode" placeholder="Enter Pincode" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" placeholder="Enter State" required>
+                </div>
+
+                 <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea name="" id="address" placeholder="Enter Address" required></textarea>
+                </div>
+            
+            </div>  
+            
+               <div class="gender"> 
+
+                    <label id="genderLabel">Gender</label>
+
+                    <div class="gender-group">
+
+                        <label> <input type="radio" name="gender" value="Male" required> Male </label>
+                        <label> <input type="radio" name="gender" value="Female"> Female </label>
+                        <label> <input type="radio" name="gender"
+                        value="Other"> Other </label>
+
+                    </div>
+
+                </div>
+
+                <button id="btn" type="submit">Submit</button>
+
+
+        </form>    
+    </div> 
+    <div class="table-container">
+
+            <table border="">
+
+                <thead>
+
+                    <tr>
+                                <th>Reg.No</th>
+                                <th>First Name</th>
+                                <th>Second Name</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Pincode</th>
+                                <th>Gender</th>
+                                <th>state</th>
+                                <th>Country</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="tableBody">
+
+
+                </tbody>
+
+            </table>
+        </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
